@@ -2,7 +2,7 @@ let fotosMarcadas = 0;
 
 function marcarFoto(evt) {
     if(evt.target.dataset.marcada == undefined) {
-        evt.target.style.filter = "sepia(100%)";
+        evt.target.style.filter = "sepia()";
         evt.target.dataset.marcada = true;
         fotosMarcadas++;
        
